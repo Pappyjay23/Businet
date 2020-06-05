@@ -398,7 +398,8 @@ header {
 .row input,
 .row label,
 .row select,
-.row textarea {
+.row textarea,
+.row label {
     margin-bottom: 10px;
 }
 
