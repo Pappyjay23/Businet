@@ -28,5 +28,23 @@ $(document).ready(function () {
         $("html, body").animate({scrollTop: $(".js--section-contact").offset().top}, 1500)
     })
 
-   
+    // RESPONSIVE MENU
+    $(".js--nav-icon").click(function () {
+       var menu = $(".js--main-nav")
+       var icon = $(".js--nav-icon i")
+
+       menu.slideToggle(200)
+
+       if (icon.hasClass("ti-menu")) {
+           icon.addClass("ti-close")
+           icon.removeClass("ti-menu")
+       } else {
+           icon.addClass("ti-menu")
+           icon.removeClass("ti-close")
+       }
+
+       
+    })
+
+
 })
