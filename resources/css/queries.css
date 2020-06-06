@@ -114,6 +114,25 @@ html, body {
         margin-top: 15%;
     }
 
+    
+    footer .col {
+        width: 100%;
+    }
+    footer {
+        padding: 20px 0;
+    }
+    .footer-links{
+        float: none;
+        text-align: center;
+    }
+    .social-links {
+        float: none;
+        text-align: center;
+    }
+    footer p {
+        margin-top: 10px;
+    }
+
     .about-box-1  {
         display: inline-block;
         /* padding-right: 30px; */

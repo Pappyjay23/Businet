@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
@@ -73,10 +77,11 @@ header {
     position: relative;
 }
 .header-text-box {
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-70%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .text-box p {
@@ -131,7 +136,7 @@ header {
 }
 .main-nav li {
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 45px;
     font-size: 70%;
     padding: 10px 0;
 }
