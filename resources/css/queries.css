@@ -177,6 +177,7 @@ html, body {
     .fuller:link,
     .fuller:visited {
         padding: 8px 15px;
+        display: inline-block;
         border-radius: 17px;
         transition: all 0.3s;
     }
